@@ -1,0 +1,7 @@
+step 1: fill container A untill it's full
+step 2: pour from container A into container B until container B is full
+      : now container A has 2 liters and B has 3 liters
+step 3: empty container B and pour what's inside A into B again
+      : now A has 0 liters and B has 2 filled liters
+step 4: fill container A again until it's full
+step 5: pour from A into B, B will take only 1 liter and A will have 4 liters now
