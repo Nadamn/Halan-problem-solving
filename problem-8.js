@@ -1,10 +1,10 @@
 // runtime: worst case O(n)
 // space complexity: O(n)
 function index_of_first_duplicate(arr){
-  const map = new Map()
+  const set = new Set()
   for(let i=0; i< arr.length; i++){
-    if(map.get(arr[i])) return i
-    else map.set(arr[i], 1)
+    if(set.has(arr[i])) return i
+    else set.add(arr[i])
   }
 }
 

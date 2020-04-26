@@ -22,7 +22,7 @@ function runLengthDecode(encodedChars){
 
     let count = ""
     while(i < encodedChars.length){
-      if(Number(encodedChars[i]) || Number(encodedChars[i]) === 0){
+      if(Number.isInteger(Number(encodedChars[i]))){
         count+= encodedChars[i++]
       } else {
         break

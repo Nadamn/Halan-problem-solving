@@ -1,5 +1,5 @@
 function sum(node){
-  return node.value + node.children.map(node => sum(node)).reduce((sum, val) => sum += val, 0)
+  return node.value + node.children.map(node => sum(node)).reduce((sum, val) => sum + val, 0)
 }
 
 
